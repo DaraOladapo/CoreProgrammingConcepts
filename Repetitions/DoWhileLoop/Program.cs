@@ -11,6 +11,7 @@ namespace DoWhileLoop
             do
             {
                 Console.WriteLine($"Counter is at {doWhileCounter}");
+                doWhileCounter++;
             } while (doWhileCounter <= 10);
         }
     }

@@ -6,9 +6,8 @@ namespace UsingIf
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number:");
+            Console.WriteLine("Enter a number: ");
             int myValue = int.Parse(Console.ReadLine());
-            //if
             if (myValue > 2)
             {
                 Console.WriteLine($"I'm excecuting because {myValue} is greater than 2");
@@ -40,7 +39,8 @@ namespace UsingIf
             //{
             //    Console.WriteLine($"I'm excecuting because {myValue} is greater than 2");
             //}
-            Console.WriteLine("I'm executing anyways.");
+            //Console.WriteLine("I'm executing anyways.");
+            Console.ReadLine();
         }
     }
 }
